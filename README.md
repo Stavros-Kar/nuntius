@@ -84,7 +84,7 @@ clone the repository. Right click to clone the repository into your workspace.
 
 2. Import OpenOlat as an Eclipse project:  
 In Eclipse, use `Import -> Git -> Projects from Git (with smart import)` and import 
-the local OpenOlat clone created in the previous step.
+the local OpenOlat clone created in the previous step. Wait untill all processing shown in Eclipse at the bottom right corner end.
 
 3. Disable validators:
    - Right-click on the project and open the project properties. Then search for `Validation`. Enable the project specific settings and disable all XML, XSLT, HTML and JPA validators. 
